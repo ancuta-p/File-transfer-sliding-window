@@ -1,0 +1,73 @@
+16-01-2020 18:45:23: total packets: 16
+16-01-2020 18:45:23: starting transmission...
+16-01-2020 18:45:23: sending packet 0
+16-01-2020 18:45:24: sending packet 1
+16-01-2020 18:45:24: received ack 0
+16-01-2020 18:45:25: sending packet 2
+16-01-2020 18:45:25: received ack 1
+16-01-2020 18:45:26: sending packet 3
+16-01-2020 18:45:26: received ack 2
+16-01-2020 18:45:27: sending packet 4
+16-01-2020 18:45:28: timeout
+16-01-2020 18:45:28: resending packet 3
+16-01-2020 18:45:28: resending packet 4
+16-01-2020 18:45:28: sending packet 5
+16-01-2020 18:45:29: timeout
+16-01-2020 18:45:29: resending packet 3
+16-01-2020 18:45:29: resending packet 4
+16-01-2020 18:45:29: resending packet 5
+16-01-2020 18:45:29: received ack 3
+16-01-2020 18:45:29: received ack 4
+16-01-2020 18:45:29: sending packet 6
+16-01-2020 18:45:29: received ack 5
+16-01-2020 18:45:30: timeout
+16-01-2020 18:45:30: ack 6 lost
+16-01-2020 18:45:30: resending packet 6
+16-01-2020 18:45:30: timeout
+16-01-2020 18:45:30: resending packet 6
+16-01-2020 18:45:30: received ack 6
+16-01-2020 18:45:30: timeout
+16-01-2020 18:45:30: sending packet 7
+16-01-2020 18:45:31: timeout
+16-01-2020 18:45:31: resending packet 7
+16-01-2020 18:45:31: received ack 7
+16-01-2020 18:45:31: sending packet 8
+16-01-2020 18:45:32: timeout
+16-01-2020 18:45:32: resending packet 8
+16-01-2020 18:45:32: received ack 8
+16-01-2020 18:45:32: timeout
+16-01-2020 18:45:32: sending packet 9
+16-01-2020 18:45:33: timeout
+16-01-2020 18:45:33: resending packet 9
+16-01-2020 18:45:33: received ack 9
+16-01-2020 18:45:33: sending packet 10
+16-01-2020 18:45:34: timeout
+16-01-2020 18:45:34: resending packet 10
+16-01-2020 18:45:34: received ack 10
+16-01-2020 18:45:34: sending packet 11
+16-01-2020 18:45:35: timeout
+16-01-2020 18:45:35: resending packet 11
+16-01-2020 18:45:35: received ack 11
+16-01-2020 18:45:35: sending packet 12
+16-01-2020 18:45:36: timeout
+16-01-2020 18:45:36: resending packet 12
+16-01-2020 18:45:36: received ack 12
+16-01-2020 18:45:36: sending packet 13
+16-01-2020 18:45:36: ack 12 lost
+16-01-2020 18:45:37: timeout
+16-01-2020 18:45:37: ack 13 lost
+16-01-2020 18:45:37: resending packet 13
+16-01-2020 18:45:37: sending packet 14
+16-01-2020 18:45:37: ack 13 lost
+16-01-2020 18:45:38: timeout
+16-01-2020 18:45:38: resending packet 13
+16-01-2020 18:45:38: resending packet 14
+16-01-2020 18:45:38: received ack 13
+16-01-2020 18:45:38: sending packet 15
+16-01-2020 18:45:38: received ack 14
+16-01-2020 18:45:39: timeout
+16-01-2020 18:45:39: resending packet 15
+16-01-2020 18:45:39: received ack 15
+16-01-2020 18:45:39: timeout
+16-01-2020 18:45:39: end of transmission
+16-01-2020 18:45:39: closing client
