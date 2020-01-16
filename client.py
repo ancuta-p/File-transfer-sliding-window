@@ -14,10 +14,11 @@ log.basicConfig(filename='clog.out', filemode='w', level=log.DEBUG, datefmt='%d-
 
 N = 4  # window size
 TIMEOUT = 2
+PROB = 0.10  # ack prob loss
 base = 0
 seq_num = 0
 last_ack = -1
-last_w = -1
+last_w = 0
 packets = []
 window = []
 timers = []
@@ -31,7 +32,7 @@ def pkts_to_send(filename):  # packets list
     try:
         file=open(filename,'rb')
     except IOError:
-        clogfile.write("error opening file")
+        log.error("error opening file")
         return
     i = 0
     while True:
@@ -59,15 +60,15 @@ def receive():  # ack thread
             if ack == last_ack + 1:
                 lock.acquire()
                 log.info("received ack " + str(ack))
-            window[ack % N] = None
-            if timers[ack % N] != 0:
-                timers[ack % N].cancel()
-                timers[ack % N] = 0           
+                
+                window[ack % N] = None
+                if timers[ack % N] != 0:
+                    timers[ack % N].cancel()
+                    timers[ack % N] = 0           
             
-            base = base+1
-            last_ack += 1
-            lock.release()
-                else:
+                base += 1
+                last_ack += 1
+                lock.release()
         else:
             log.info("ack " + str(ack) + " lost")
 
