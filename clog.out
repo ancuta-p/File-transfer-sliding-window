@@ -1,41 +1,56 @@
-16-01-2020 22:51:42: total packets: 16
-16-01-2020 22:51:42: starting transmission...
-16-01-2020 22:51:42: sending packet 0
-16-01-2020 22:51:43: sending packet 1
-16-01-2020 22:51:43: received ack 0
-16-01-2020 22:51:44: received ack 1
-16-01-2020 22:51:44: sending packet 2
-16-01-2020 22:51:44: sending packet 3
-16-01-2020 22:51:44: received ack 2
-16-01-2020 22:51:45: sending packet 4
-16-01-2020 22:51:45: received ack 3
-16-01-2020 22:51:46: sending packet 5
-16-01-2020 22:51:46: received ack 4
-16-01-2020 22:51:47: sending packet 6
-16-01-2020 22:51:47: received ack 5
-16-01-2020 22:51:47: sending packet 7
-16-01-2020 22:51:47: received ack 6
-16-01-2020 22:51:48: sending packet 8
-16-01-2020 22:51:48: received ack 7
-16-01-2020 22:51:49: sending packet 9
-16-01-2020 22:51:49: received ack 8
-16-01-2020 22:51:50: sending packet 10
-16-01-2020 22:51:50: received ack 9
-16-01-2020 22:51:50: sending packet 11
-16-01-2020 22:51:50: received ack 10
-16-01-2020 22:51:51: sending packet 12
-16-01-2020 22:51:51: received ack 11
-16-01-2020 22:51:52: sending packet 13
-16-01-2020 22:51:53: sending packet 14
-16-01-2020 22:51:53: t: resending packet 12
-16-01-2020 22:51:53: t: resending packet 13
-16-01-2020 22:51:53: t: resending packet 14
-16-01-2020 22:51:53: received ack 12
-16-01-2020 22:51:53: received ack 13
-16-01-2020 22:51:53: received ack 14
-16-01-2020 22:51:54: sending packet 15
-16-01-2020 22:51:54: t: resending packet 15
-16-01-2020 22:51:54: received ack 15
-16-01-2020 22:51:54: ack 15 lost
-16-01-2020 22:51:54: end of transmission
-16-01-2020 22:51:54: closing client
+16-01-2020 23:27:56: total packets: 16
+16-01-2020 23:27:56: starting transmission...
+16-01-2020 23:27:56: sending packet 0
+16-01-2020 23:27:57: sending packet 1
+16-01-2020 23:27:57: received ack 0
+16-01-2020 23:27:58: sending packet 2
+16-01-2020 23:27:58: received ack 1
+16-01-2020 23:27:58: sending packet 3
+16-01-2020 23:27:58: ack 2 lost
+16-01-2020 23:27:59: sending packet 4
+16-01-2020 23:28:00: t: resending packet 2
+16-01-2020 23:28:00: t: resending packet 3
+16-01-2020 23:28:00: t: resending packet 4
+16-01-2020 23:28:00: received ack 2
+16-01-2020 23:28:00: received ack 3
+16-01-2020 23:28:00: received ack 4
+16-01-2020 23:28:00: sending packet 5
+16-01-2020 23:28:00: t: resending packet 5
+16-01-2020 23:28:01: sending packet 6
+16-01-2020 23:28:01: ack 5 lost
+16-01-2020 23:28:01: t: resending packet 5
+16-01-2020 23:28:01: t: resending packet 6
+16-01-2020 23:28:01: received ack 5
+16-01-2020 23:28:01: received ack 6
+16-01-2020 23:28:01: sending packet 7
+16-01-2020 23:28:02: t: resending packet 7
+16-01-2020 23:28:02: received ack 7
+16-01-2020 23:28:02: sending packet 8
+16-01-2020 23:28:02: t: resending packet 8
+16-01-2020 23:28:02: received ack 8
+16-01-2020 23:28:03: sending packet 9
+16-01-2020 23:28:03: t: resending packet 9
+16-01-2020 23:28:03: received ack 9
+16-01-2020 23:28:04: sending packet 10
+16-01-2020 23:28:04: t: resending packet 10
+16-01-2020 23:28:04: received ack 10
+16-01-2020 23:28:05: sending packet 11
+16-01-2020 23:28:05: ack 10 lost
+16-01-2020 23:28:05: t: resending packet 11
+16-01-2020 23:28:05: received ack 11
+16-01-2020 23:28:05: sending packet 12
+16-01-2020 23:28:06: t: resending packet 12
+16-01-2020 23:28:06: received ack 12
+16-01-2020 23:28:06: sending packet 13
+16-01-2020 23:28:06: ack 12 lost
+16-01-2020 23:28:07: t: resending packet 13
+16-01-2020 23:28:07: received ack 13
+16-01-2020 23:28:07: sending packet 14
+16-01-2020 23:28:07: t: resending packet 14
+16-01-2020 23:28:07: received ack 14
+16-01-2020 23:28:08: sending packet 15
+16-01-2020 23:28:08: t: resending packet 15
+16-01-2020 23:28:08: received ack 15
+16-01-2020 23:28:08: ack 15 lost
+16-01-2020 23:28:08: end of transmission
+16-01-2020 23:28:08: closing client
