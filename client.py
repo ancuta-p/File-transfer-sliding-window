@@ -75,7 +75,28 @@ def receive():  # ack thread
         if last_ack == last_w and eot:
             eoa = True
 
+def timeout():
+    global timers
 
+    if eoa:
+        return
+
+    if len(timers) > (base % N) and timers[base % N] != 0:
+        lock.acquire()
+        i = base
+        while i <= last_w :
+            if window[i % N] is not None:
+                c_socket.sendto(window[i % N], recv_addr)
+                t = threading.Timer(TIMEOUT, timeout)
+
+                t.start()
+                timers[i % N] = t
+
+                log.info("t: resending packet " + str(i))
+            i += 1
+        lock.release()
+        
+        
 def send():  # send packets
     global last_w
     global timers
@@ -102,16 +123,16 @@ def send():  # send packets
             t.start()
             timers[next % N] = t
 
-        time.sleep(1)    
+        time.sleep(0.75)    
         c_socket.sendto(packets[next], recv_addr)
         last_w += 1
-        seq_num += 1
+       
         
     eot = True
     while not eoa:
         pass
     log.info("end of transmission")
-    c_socket.sendto(packet.make(seq_num, b''), recv_addr)
+    c_socket.sendto(packet.make(total_packets, b''), recv_addr)
     clogfile.write("\nclosing client")
     c_socket.close()
 
