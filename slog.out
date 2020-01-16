@@ -1,45 +1,45 @@
-16-01-2020 18:45:24: got packet 0, sending ack
-16-01-2020 18:45:25: got packet 1, sending ack
-16-01-2020 18:45:26: got packet 2, sending ack
-16-01-2020 18:45:27: packet 3 lost
-16-01-2020 18:45:28: packet 3 lost
-16-01-2020 18:45:28: seq, exp:  4, 3
-16-01-2020 18:45:28: seq, exp:  4, 3
-16-01-2020 18:45:29: got packet 3, sending ack
-16-01-2020 18:45:29: got packet 4, sending ack
-16-01-2020 18:45:29: packet 5 lost
-16-01-2020 18:45:29: got packet 5, sending ack
-16-01-2020 18:45:30: got packet 6, sending ack
-16-01-2020 18:45:30: seq, exp:  6, 7
-16-01-2020 18:45:30: sending ack 6
-16-01-2020 18:45:30: seq, exp:  6, 7
-16-01-2020 18:45:30: sending ack 6
-16-01-2020 18:45:31: got packet 7, sending ack
-16-01-2020 18:45:31: seq, exp:  7, 8
-16-01-2020 18:45:31: sending ack 7
-16-01-2020 18:45:32: got packet 8, sending ack
-16-01-2020 18:45:32: seq, exp:  8, 9
-16-01-2020 18:45:32: sending ack 8
-16-01-2020 18:45:33: got packet 9, sending ack
-16-01-2020 18:45:33: seq, exp:  9, 10
-16-01-2020 18:45:33: sending ack 9
-16-01-2020 18:45:34: got packet 10, sending ack
-16-01-2020 18:45:34: seq, exp:  10, 11
-16-01-2020 18:45:34: sending ack 10
-16-01-2020 18:45:35: got packet 11, sending ack
-16-01-2020 18:45:35: seq, exp:  11, 12
-16-01-2020 18:45:35: sending ack 11
-16-01-2020 18:45:36: got packet 12, sending ack
-16-01-2020 18:45:36: seq, exp:  12, 13
-16-01-2020 18:45:36: sending ack 12
-16-01-2020 18:45:37: got packet 13, sending ack
-16-01-2020 18:45:37: seq, exp:  13, 14
-16-01-2020 18:45:37: sending ack 13
-16-01-2020 18:45:38: seq, exp:  13, 14
-16-01-2020 18:45:38: sending ack 13
-16-01-2020 18:45:38: packet 14 lost
-16-01-2020 18:45:38: got packet 14, sending ack
-16-01-2020 18:45:39: got packet 15, sending ack
-16-01-2020 18:45:39: seq, exp:  15, 16
-16-01-2020 18:45:39: sending ack 15
-16-01-2020 18:45:39: closing server
+16-01-2020 23:27:57: got packet 0, sending ack
+16-01-2020 23:27:58: got packet 1, sending ack
+16-01-2020 23:27:58: got packet 2, sending ack
+16-01-2020 23:27:59: got packet 3, sending ack
+16-01-2020 23:28:00: seq, exp:  2, 4
+16-01-2020 23:28:00: sending ack 2
+16-01-2020 23:28:00: got packet 3, sending ack
+16-01-2020 23:28:00: got packet 4, sending ack
+16-01-2020 23:28:00: seq, exp:  4, 5
+16-01-2020 23:28:00: sending ack 4
+16-01-2020 23:28:00: packet 5 lost
+16-01-2020 23:28:01: got packet 5, sending ack
+16-01-2020 23:28:01: seq, exp:  5, 6
+16-01-2020 23:28:01: sending ack 5
+16-01-2020 23:28:01: got packet 6, sending ack
+16-01-2020 23:28:01: seq, exp:  6, 7
+16-01-2020 23:28:01: sending ack 6
+16-01-2020 23:28:02: got packet 7, sending ack
+16-01-2020 23:28:02: seq, exp:  7, 8
+16-01-2020 23:28:02: sending ack 7
+16-01-2020 23:28:02: got packet 8, sending ack
+16-01-2020 23:28:03: seq, exp:  8, 9
+16-01-2020 23:28:03: sending ack 8
+16-01-2020 23:28:03: got packet 9, sending ack
+16-01-2020 23:28:04: seq, exp:  9, 10
+16-01-2020 23:28:04: sending ack 9
+16-01-2020 23:28:04: got packet 10, sending ack
+16-01-2020 23:28:05: seq, exp:  10, 11
+16-01-2020 23:28:05: sending ack 10
+16-01-2020 23:28:05: got packet 11, sending ack
+16-01-2020 23:28:05: seq, exp:  11, 12
+16-01-2020 23:28:05: sending ack 11
+16-01-2020 23:28:06: got packet 12, sending ack
+16-01-2020 23:28:06: seq, exp:  12, 13
+16-01-2020 23:28:06: sending ack 12
+16-01-2020 23:28:07: got packet 13, sending ack
+16-01-2020 23:28:07: seq, exp:  13, 14
+16-01-2020 23:28:07: sending ack 13
+16-01-2020 23:28:07: got packet 14, sending ack
+16-01-2020 23:28:08: seq, exp:  14, 15
+16-01-2020 23:28:08: sending ack 14
+16-01-2020 23:28:08: got packet 15, sending ack
+16-01-2020 23:28:08: seq, exp:  15, 16
+16-01-2020 23:28:08: sending ack 15
+16-01-2020 23:28:08: closing server
